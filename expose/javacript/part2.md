@@ -15,4 +15,24 @@
     3.  c) student.greeting()
     4.  d) student['Favorite Teacher']
     5.  e) student.courseLoad[0]
-13. 
+13. a) '3' + 2 = 32 : + 2 converted to string 
+    b) '3' - 2 = 1 : - forces numeric conversion '3' -> 3
+    c)  3 + null = 3  null = 0
+    d) '3' + null = '3null' : null->"null"
+    e)  true + 3 = 4 : true = 1
+    f)  false + null = 0 : false = 0 and null = 0
+    g) '3' + undefined = '3undefined' : undefined -> "undefined"
+    h) '3' - undefined = NaN : undefined -> NaN
+14.
+    a) '2' > 1 : true ('2' to number so 2 > 1 is true)
+    b) '2' < '12' : false (both are strings to based on lexicographic: '2' > '1')
+    c) 2 == '2' : true ('2' to numeric )
+    d) 2 === '2' : false (two different types)
+    e) true == 2 : false (true -> 1 so 1==2 is false)
+    f) true === Boolean(2) : true (boolean(2) == true)
+15. === checks the equality without type conversion unlike ==
+16. in part2-question16.js
+17. Result: [2, 4, 6]. The function takes in an array: [1,2,3] and a callback function called doSomething which multiply the parameter "num" with 2. in the modifyArray function, the array 'newArr' get push the element from 'array' that got put into 'doSomething' and turn into a new element. 1*2 = 2, 2*2 = 4, 3*2 = 6 and 'modifyArray' return that new array.
+18. in part2-question18.js
+19. 1 4 3 2
+    
